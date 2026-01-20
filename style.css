@@ -2,22 +2,57 @@
     padding: 0;
     margin: 0;
 }
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
 body{
     max-width: 1500px;
     margin: 0 auto;
 }
+/* shered styles */
+.bg-color{
+    background-color: rgba(26, 11, 46, 1);
+}
+.text-white{
+    color: white;
+}
+.padding{
+    padding-bottom: 20px;
+}
+
+
 .nav-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+}
+h1{
+    margin-left: 200px;
+}
+.tech-wave{
+    background:linear-gradient(to right, #FB09B4, #9100F8 );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+.nav-btn{
+    background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+    margin-right: 200px;
+    /* padding: 20px; */
+    border-radius: 20px;
+    width: 135px;
+    height: 44px;
 }
 ul{
     display: flex;
 }
+
 ul li{
     list-style: none;
-    margin-right: 20px;
-    /* color: white;     */
+    margin-right: 20px;  
 }
 
 .hero-container{
@@ -33,4 +68,36 @@ ul li{
     position: absolute;
     left: 750px;
     top: 200px;
+}
+
+.hero-challange{
+    position: absolute;
+    left: 910px;
+    top: 160px;
+    background-color: rgba(0, 255, 136, 1);
+    border-radius: 40px;
+    padding: 10px 20px;
+}
+.tech-wave-details{
+    position: absolute;
+    top: 550px;
+    left: 550px;
+    width: 550px;
+    height: 168px;
+    text-align: center;
+
+}
+.spotify-btn{
+    width: 160px;
+    height: 44px;
+    padding: 16px;
+    border-radius: 16px;
+    background:linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+}
+.subscribe-btn{
+    width: 147px;
+    height: 44px;
+    background-color: #00FF88;
+    padding: 16px;
+    border-radius: 16px;
 }
