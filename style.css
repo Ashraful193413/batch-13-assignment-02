@@ -21,7 +21,7 @@ ul li{
 }
 
 .hero-container{
-    background-image: url('/assets/hero-bg.png');
+    background-image: url('./assets/hero-bg.png');
     height: 760px;
 }
 .hero-circle-img{
