@@ -119,6 +119,9 @@ ul li{
 .podcast-container{
    height: 400px;
 }
+.podcast-header{
+    padding-top: 80px;
+}
 .podcast-details{
     width: 1100px;
     margin: 0 auto;
